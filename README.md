@@ -5,4 +5,4 @@ Para ingresar a la página con mi curriculum vitae sigue el enlace.
 [_Curriculum vitae Mario Ruiz_][enlaceCV]
 
 
-[enlaceCV]:www.marioruiz97.github.io
+[enlaceCV]:http://marioruiz97.github.io
