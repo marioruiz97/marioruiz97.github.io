@@ -1,0 +1,35 @@
+/* ==========================================================================
+   Author's custom styles
+   ========================================================================== */
+body{
+	margin: 0;
+	padding: 0;
+}
+
+.cover {
+	background: url('../img/fondo-header.jpg') no-repeat fixed center top ;
+	background-size: cover;
+}
+
+
+
+@media screen and (min-width: 768px), and (max-width: 790px) {
+	div#myNavbar li a {
+		padding: 15px 10px;
+	}
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
