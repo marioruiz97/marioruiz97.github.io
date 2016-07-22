@@ -4,6 +4,7 @@
 body{
 	margin: 0;
 	padding: 0;
+	background: #FDFFF2;
 }
 
 .cover {
@@ -11,7 +12,41 @@ body{
 	background-size: cover;
 }
 
+.curso{
+	width: 90%;
+	height: 300px;
+	margin: 10px auto;
+	background: #18F1BB;
+}
+.curso:hover{
+	background-color: #44ECE3;
+}
 
+.habilidades, footer{
+	background-color: #212121;
+	color: #FDFFF2;
+}
+
+.certificados{
+	background-color: #44A1EC;
+}
+
+
+
+
+
+
+/*======================================
+
+MEDIA QUERIES
+
+=======================================*/
+@media screen and (max-width: 767px) {
+	.curso{
+		width: 100%;
+		margin: 10px auto;
+	}
+}
 
 @media screen and (min-width: 768px), and (max-width: 790px) {
 	div#myNavbar li a {
@@ -20,16 +55,8 @@ body{
 }
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
+@media screen and (max-height: 556px){
+	.curso{
+		height: 250px;
+	}
+}
