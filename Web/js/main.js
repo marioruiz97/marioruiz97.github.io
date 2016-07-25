@@ -4,6 +4,7 @@
 
       cover.css({"height":vHeight,"width":'100%'});
 
+
       //Obtener el año actual con JQuery
       var anio = (new Date).getFullYear();
  
@@ -33,9 +34,7 @@ $(document).ready(function(){
 });
 
 
-
-
-
+/*
 function size(){
 
 	var caja, padre;
@@ -70,7 +69,4 @@ function setStyles(ancho, alto){
 	elemento.style.Width = ancho;
 	elemento.style.Height = alto;
 }
-
-
-
-
+*/

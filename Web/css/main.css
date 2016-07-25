@@ -81,8 +81,6 @@ span.azul{
 }
 
 
-
-
 /**********MENÚ**************/
 .navbar-header {
 	margin-bottom: 2px;
@@ -186,12 +184,6 @@ MEDIA QUERIES
 	}
 	footer ul li {
 		text-align: center;
-	}
-}
-
-@media screen and (min-width: 768px), and (max-width: 790px) {
-	div#myNavbar li a {
-		padding: 15px 5px;
 	}
 }
 
