@@ -12,7 +12,9 @@
 
 
     <title>Curriculum vitae - Mario Ruiz</title>
-
+    
+    <!-- OPEN SANS-->
+    <link href='https://fonts.googleapis.com/css?family=Open+Sans:400,700,400italic,300' rel='stylesheet' type='text/css'>
 
     <!-- Latest compiled and minified CSS -->
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css" integrity="sha384-1q8mTJOASx8j1Au+a5WDVnPi2lkFfwwEAa8hDDdjZlpLegxhjVME1fgjWPGmkzs7" crossorigin="anonymous">
@@ -27,12 +29,9 @@
     <p class="browserupgrade">You are using an <strong>outdated</strong> browser. Please <a href="http:// browsehappy.com/">upgrade your browser</a> to improve your experience.</p>
   <![endif]-->
 
-  <!-- h1 por cuestiones de seo-->
-  <h1 class="sr-only">Hoja de vida de Mario Andrés Ruiz. Hecho con Github pages.</h1>
-
-
-    <header class="container-fluid cover">
-      <nav class="navbar navbar-inverse navbar-fixed-top" role="navigation">
+  <h1 class="hidden">Hoja de vida de Mario Andrés Ruiz. Hecho con Github pages.</h1>
+  
+    <nav class="navbar navbar-inverse navbar-fixed-top" role="navigation">
         <div class="container-fluid">
 
           <div class="navbar-header">
@@ -59,8 +58,15 @@
         </div>
       </nav><!-- fin menú-->
 
+    <header class="container-fluid cover">
 
-      <h2 class="text-center" style="padding-top:50vh;/*ATENCION....BORRAR*/">Frase de educacion</h2>
+      <blockquote class="text-center">
+        <h2 class="text-center">
+          <span class="icon-quotes-left"> </span> La educación no es preparación para la vida; la educación es la vida en si misma. <span class="icon-quotes-right"> </span> 
+          <small>John Dewey.</small>
+        </h2>
+      </blockquote>
+      
     </header>
 
       <!-- Main jumbotron con background -->
@@ -69,25 +75,25 @@
           <h1 class="text-center">Mario Andrés Ruiz</h1>
           <h2>Perfil.</h2>
           <p>
-            Soy un joven Lorem ipsum dolor sit amet, consectetur adipisicing elit. Voluptatibus magnam animi illo ab ipsum molestiae, ea cupiditate, soluta eveniet. Sequi maxime ad labore id iste odio voluptatum dolor expedita nemo.
+            Soy un joven, estudiante y entusiasta por aprender nuevas cosas en el ámbito de desarrollo de software (el cual es mi principal interés en el mundo laboral) y en las principales tecnologías usadas actualmente.
           </p>
-          <p><a class="btn btn-primary btn-lg" href="#" role="button">Learn more &raquo;</a></p>
+          <p>
+            Gracias a la formación recibida por parte del Politécnico Colombiano Jaime Isaza Cadavid y a las diferentes prácticas que he realizado en ámbito académico he podido aprender aspectos básicos del desarrollo de software que me gustaría reforzar en una vida laboral.
+          </p>
+          <p><a class="btn btn-primary btn-lg leer-mas" href="#datos" role="button">Seguir Leyendo &raquo;</a></p>
         </section>
       </div>
 
       <!-- datos personales-->
       <article id="datos" class="container-fluid">
         <section class="row">
+          <h3 class="text-center">Datos Personales</h3>
           <div class="col-xs-12">
 
             <p>
-              Mi nombre es mario andrés ruiz y mis datos son:
+              Mi nombre es Mario Andrés Ruiz, soy un ciudadano Colombiano nacido el 30 de octubre de 1997. <br>
+              Actualmente resido en la ciudad de Medellín y soy estudiante de Ingeniería de Sistemas en el Politécnico Colombiano Jaime Isaza Cadavid
             </p>
-            <ul>
-              <li>Naci el 30 de octubre de 1997</li>
-              <li>soy de la ciudad de medellín</li>
-              <li>soy soltero</li>
-            </ul>
 
           </div>
         </section><!-- fin row-->
@@ -100,19 +106,56 @@
 
           <div class="col-xs-12 col-sm-6">
             <p>
-              soy un estudiante del politecnico colombiano jaime isaza cadavid. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ad facere inventore maxime non obcaecati aliquid possimus natus, quis beatae, quod ullam neque cumque rem, eos consequatur officia eveniet dignissimos. Ex.
+              La formación que he recibido por parte del Politécnico Colombiano Jaime Isaza Cadavid ha sido una excelente experiencia ya que me ha dado buenas bases en desarrollo de sistemas de información, lenguajes de programación, al seguimiento del ciclo de vida, testing; todo esto en un entorno en el cual impera la práctica, algo importante para reforzar cada uno de los conocimientos adquiridos. 
             </p>
-            <p>Entre mis estudios se encuentran:</p>
-            <ul>
-              <li>bachiller</li>
-              <li>media tecnica</li>
-              <li>universitario</li>
-            </ul>
+            <br>
+            <p>
+              También, he recibido lecciones en diferentes temas como redes informáticas, sistemas operativos, mantenimiento de equipos de cómputo, soporte a usuarios. 
+            </p>
+            <br>
+            <p>
+              En paralelo al crecimiento académico, soy un convencido del crecimiento como persona, ya que considero es importante apreciar el ser antes que el saber. 
+            </p>
+            <br>
+            <p>
+              La calidad humana no se mide por el éxito ni por el prestigio. Si por el deseo de ser seres humanos más éticos y morales cada día, más conscientes y más capaces de ser útiles a los demás y a nosotros mismos. 
+            </p>
+
           </div>
 
           <div class="col-xs-12 col-sm-6">
-            <p>En lo personal soy un convenido de que.</p>
-            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quos omnis similique voluptatem! Sint dolorum amet eligendi dolores doloremque. Officia voluptatibus possimus eum maxime, quo quidem fugit alias repellat accusantium facilis.</p>
+
+            <p>Entre mis estudios se encuentran:</p>
+            <ul class="list-unstyled">
+              <li><span class="icon-books"> </span>
+                <h4 class="inline">Estudios Secundarios:</h4>
+                <ul class="unstyled">
+                  <li>Bachiller Media Técnica.</li>
+                  <li>Institución Educativa Concejo de Medellín.*</li>
+                  <li>Desde enero de 2009 a noviembre de 2014.</li>
+                </ul>
+              </li>
+              <li><span class="icon-books"> </span>
+                <h4 class="inline">Estudios Universitarios:</h4>
+                <ul class="unstyled">
+                  <li>Técnico Profesional en Programación de Sistemas de Información - Graduado.</li>
+                  <li>Politécnico Colombiano Jaime Isaza Cadavid.</li>
+                  <li>Desde enero de 2015 a junio de 2016.</li>
+                </ul>
+              </li>
+              <li><span class="icon-books"> </span>
+                <h4 class="inline">Eventos:</h4>
+                <ul class="unstyled">
+                  <li>Expositor en XV Encuentro Pedagógico de Educación Media Técnica en Informática EPEMTI 2014.</li>
+                  <li>Alianza futuro digital, Alcaldía de Medellín, Grupo Intersoftware, SENA, Politécnico Colombiano Jaime Isaza Cadavid, Universidad EAFIT Y CREAME.</li>
+                  <li>Noviembre de 2014.</li>
+                </ul>
+              </li>
+            </ul>
+            <span>
+              <br>* En convenio con el Politécnico Jaime Isaza Cadavid.
+            </span>
+  
           </div>
         </section><!-- fin row-->
       </article><!-- fin container-->
@@ -122,26 +165,65 @@
         <section class="row">
           <h3 class="text-center">Habilidades</h3>
           <div class="col-xs-12">
-            <ul>
-              <li>soy bueno trabajando en equipo</li>
-              <li>he tenido experiencia programando</li>
-              <li>conozco java, javascript, visualBasic y php</li>
-              <li>se manejar los sistemas de control de versiones git</li>
-              <li>he tenido la oportunidad de trabajr en soporte</li>
-              <li>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nihil accusantium enim minima libero nemo vero fugiat similique amet quibusdam ab! Alias sint impedit aut, quasi numquam voluptates quidem commodi mollitia.</li>
-              <li>tengo conocimientos basicos en el lenguaje sql</li>
-              <li>me gusta ser responsable. y Lorem ipsum dolor sit amet, consectetur adipisicing elit. Placeat perspiciatis explicabo facilis quisquam hic aspernatur voluptates, ad, cupiditate repellat expedita excepturi! Hic inventore non animi asperiores perspiciatis possimus obcaecati labore?</li>
-            </ul>
-          </div>
-        </section>
-        
-        <section class="row">
-          <div class="col-xs-12">
-            <p>tambien tengo experiencia en :</p>
-            <ul>
-              <li>Lorem ipsum dolor sit amet, consectetur adipisicing elit. A unde quidem asperiores, consequuntur et eos autem accusantium dolorem voluptate dolore quis consectetur dignissimos saepe enim iusto, maiores. Perferendis, exercitationem, excepturi!</li>
-              <li>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Eligendi beatae doloremque officiis adipisci quam quaerat reiciendis eius illum maxime debitis quis vitae eveniet accusantium minus cumque enim, iusto asperiores corporis.</li>
-              <li>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Error laborum temporibus minus dolore architecto iusto harum dicta repudiandae dolorum corrupti fuga libero quo asperiores adipisci culpa non officia, maxime sit?</li>
+            <p>
+              En el transcurso de mi vida académica he podido trabajar en algunos proyectos, usando diferentes tecnologías y recursos y mejorando mis habilidades en cada uno de ellos.
+            </p>
+            <ul class="list-unstyled">
+              <li><span class="icon-embed2"> </span>
+                Tengo la capacidad de trabajar en equipo, tomando roles específicos.
+              </li>
+
+              <li><span class="icon-embed2"> </span>
+                Me gusta servir al grupo de trabajo en que me desempeño, además tengo la habilidad de adquirir conocimientos rápidamente; por lo que no me es difícil acoplarme.
+              </li>
+
+              <li><span class="icon-embed2"> </span>
+                Siempre busco una solución a los problemas que se presentan, buscando información en diferentes fuentes.
+              </li>
+
+              <li><span class="icon-embed2"> </span>
+                Conozco diferentes modelos de ciclo de vida y he podido trabajar con algunos de ellos (Incremental, cascada). Además tengo interés en el desarrollo de proyectos con el uso de modelos ágiles como SCRUM y Extreme Programming.
+              </li>
+
+              <li><span class="icon-embed2"> </span>
+                Tengo la habilidad de documentar procesos concernientes al desarrollo de software, usando herramientas ofimáticas para esto.
+              </li>
+
+              <li><span class="icon-embed2"> </span>
+                He tenido la experiencia de participar en proyectos de desarrollo (de propósito académico), en los que he podido realizar tareas que van desde documentación, levantamiento de requisitos, definición de estándares y control de versiones, codificar y testear.
+              </li>
+
+              <li><span class="icon-embed2"> </span>
+                He usado el lenguaje UML en el desarrollo del ciclo de vida de proyectos, realizando diagramas de casos de uso, diagramas de clases y diagramas de secuencia (de forma básica).
+              </li>
+
+              <li><span class="icon-embed2"> </span>
+                Tengo conocimientos en el campo de desarrollo web (front-end), trabajando con diferentes tecnologías como <span class="azul">HTML5</span>, <span class="azul">CSS3</span>, <span class="azul"> JS</span> y usando diferentes herramientas.
+              </li>
+
+              <li><span class="icon-embed2"> </span>
+                En el desarrollo de proyectos he usado diferentes herramientas como Initializr, Modernizr, Normalize, tambien he usado el framework de <span class="azul">Bootstrap</span> y el <span class="azul">W3.CSS</span>.
+              </li>
+
+              <li><span class="icon-embed2"> </span>
+                Tambien conozco y he podido trabajar con los lenguajes de <span class="azul">Java</span>, <span class="azul">Visual Basic</span> y <span class="azul">PHP</span>.
+              </li>
+
+              <li><span class="icon-embed2"> </span>
+                Conozco y sigo las filosofías del responsive web design y el mobile first.
+              </li>
+
+              <li><span class="icon-embed2"> </span>
+                Se manejar los sistemas de control de versiones git, además de utilizarlos para el desarrollo de los proyectos.
+              </li>
+
+              <li><span class="icon-embed2"> </span>
+                Tengo conocimientos basicos en el lenguaje <span class="azul">SQL</span>.
+              </li>
+
+              <li><span class="icon-embed2"> </span>
+                He tenido la oportunidad de trabajar en soporte a usuarios.
+              </li>
             </ul>
           </div>
         </section>
@@ -218,11 +300,44 @@
               
 <!-- footer-->
 <footer class="container-fluid">
-  <p>pie de página</p>
-  <p>Mario Ruiz - 2016</p>
+  <div class="row">
+    <div class="col-xs-12 col-sm-6">
+      <ul class="list-unstyled">
+              <li><a href="#perfil">Perfil</a></li>
+              <li><a href="#datos">Datos Personales</a></li>
+              <li><a href="#formacion">Formación</a></li>
+              <li><a href="#habilidades">Habilidades</a></li>
+              <li><a href="#cursos">Cursos y certificaciones</a></li>
+              <li><a href="" class="">Acerca del sitio.</a></li>
+            </ul>
+    </div>
+
+    <div class="col-xs-12 col-sm-6">
+      <ul class="list-unstyled">
+        <li>
+          <a href="https://github.com/marioruiz97" title="Perfil de Github">
+            <i class="icon-github"> </i>
+            <span>Perfil de Github</span>
+          </a>
+        </li>
+        <li id="repositorio">
+          <button type="button" class="btn btn-info" title="Repositorio página web en formato zip" onclick="window.location.href='./marioruiz97.github.io.zip'">Descargar página web</button>
+        </li>
+      </ul>
+    </div>
+  </div>
+
+  <div class="row">
+    <div class="col-xs-12">
+      <h4 class="text-center">Hecho por Mario Andrés Ruiz - <span class="fecha"></span> </h4>
+    </div>
+
+  </div>
 </footer>
 
 
+<!-- botón ir arriba-->
+<span class="back-top hidden-xs icon-chevron-up"> </span>
 
 
 
@@ -239,14 +354,6 @@
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js" integrity="sha384-0mSbJDEHialfmuBBQP6A4Qrprq5OVfW37PRR3j5ELqxss1yVqOtnepnHVP9aJ7xS" crossorigin="anonymous"></script>
 
     <script src="js/main.js"></script>
-    
-    <!-- imagen toma el total del ancho y alto del viewport -->
-    <script>
-      var vHeight = $(window).height(),
-      cover = $('.cover');
-
-      cover.css({"height":vHeight,"width":'100%'});
-    </script>
 
   </body>
 </html>
