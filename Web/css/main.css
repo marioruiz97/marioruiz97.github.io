@@ -95,18 +95,43 @@ nav ul li, nav ul li a{
 
 
 /******* CURSOS ********/
+.certificados{
+	background-color: #44A1EC;
+}
+
 .curso{
 	width: 90%;
 	height: 300px;
 	margin: 10px auto;
-	background: #18F1BB;
+	overflow: hidden;
+	border-radius: 5px;
 }
-.curso:hover{
-	background-color: #44ECE3;
-}
+.curso img{
+	width: 100%;
+	max-width: 100%;
+	height: inherit;
+	max-height: inherit;
+	-webkit-filter:blur(1.5px)  grayscale(1);
+	filter:blur(1.5px)  grayscale(1);
+	-webkit-transition:all .9s ease;
+	-moz-transition:all .9s ease;
+	-o-transition:all .9s ease;
+	border-radius: 5px;
+	cursor: pointer;
 
-.certificados{
-	background-color: #44A1EC;
+}
+.curso img:hover{
+	-webkit-filter:blur(0)  grayscale(0);
+	filter:blur(0)  grayscale(0);
+	border-radius: 5px;
+
+}
+.curso:hover img {
+	-webkit-transform: scale(1.25);
+	-moz-transform: scale(1.25);
+	-o-transform: scale(1.25);
+	border-radius: 5px;
+
 }
 /*****************************/
 
@@ -147,7 +172,7 @@ footer .btn-info:focus, footer .btn-info:hover, footer .btn-info:active {
 	font-weight: 600;
 }
 #repositorio{
-	padding-top: 8px; 
+	padding-top: 8px;
 }
 /***************************************/
 
