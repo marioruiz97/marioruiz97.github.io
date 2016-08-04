@@ -1,0 +1,585 @@
+{
+	"auto_complete":
+	{
+		"selected_items":
+		[
+			[
+				"margin",
+				"margin-top"
+			],
+			[
+				"font",
+				"font-weight"
+			],
+			[
+				"pad",
+				"padding"
+			],
+			[
+				"colo",
+				"color-borde"
+			],
+			[
+				"mar",
+				"margin"
+			],
+			[
+				"mari",
+				"margin"
+			],
+			[
+				"tex",
+				"text-align"
+			],
+			[
+				"ima",
+				"imagen-rana"
+			],
+			[
+				"con",
+				"contenido-principal"
+			],
+			[
+				"di",
+				"dimension"
+			],
+			[
+				"im",
+				"imagen-reciclaje"
+			],
+			[
+				"coLOR",
+				"color-texto"
+			],
+			[
+				"dimen",
+				"dimension"
+			],
+			[
+				"i",
+				"id	Attr"
+			],
+			[
+				"pa",
+				"padding-bottom"
+			],
+			[
+				"inli",
+				"inline-block"
+			],
+			[
+				"ba",
+				"background-color"
+			],
+			[
+				"back",
+				"background-color"
+			],
+			[
+				"te",
+				"text-transform"
+			],
+			[
+				"margi",
+				"margin-bottom"
+			],
+			[
+				"paddi",
+				"padding"
+			],
+			[
+				"ack",
+				"background-size"
+			],
+			[
+				"marg",
+				"margin-top"
+			],
+			[
+				"magin",
+				"margin-left"
+			],
+			[
+				"bor",
+				"border-radius"
+			],
+			[
+				"no",
+				"nowrap"
+			],
+			[
+				"paddin",
+				"padding"
+			],
+			[
+				"border",
+				"border-radius"
+			],
+			[
+				"bord",
+				"border-radius"
+			],
+			[
+				"bac",
+				"background"
+			],
+			[
+				"fon",
+				"font-size"
+			],
+			[
+				"sitio",
+				"sitio-construir"
+			],
+			[
+				"co",
+				"cover"
+			],
+			[
+				"Sans",
+				"Sans-Serif"
+			],
+			[
+				"max",
+				"max-width"
+			],
+			[
+				"ri",
+				"right"
+			],
+			[
+				"transi",
+				"transition"
+			],
+			[
+				"text",
+				"text-decoration"
+			],
+			[
+				"ma",
+				"margin-bottom"
+			],
+			[
+				"in",
+				"inline-block"
+			],
+			[
+				"min",
+				"min-width"
+			],
+			[
+				"transition-d",
+				"transition-duration"
+			],
+			[
+				"trans",
+				"transition"
+			],
+			[
+				"rg",
+				"rgba()"
+			],
+			[
+				"hei",
+				"height"
+			],
+			[
+				"list-s",
+				"list-style-image"
+			],
+			[
+				"border-",
+				"border-width"
+			],
+			[
+				"padd",
+				"padding"
+			],
+			[
+				"pos",
+				"position"
+			],
+			[
+				"cur",
+				"cursor"
+			],
+			[
+				"wid",
+				"width"
+			],
+			[
+				"po",
+				"position"
+			],
+			[
+				"he",
+				"height"
+			],
+			[
+				"box",
+				"box-sizing"
+			],
+			[
+				"la",
+				"label	Tag"
+			],
+			[
+				"inl",
+				"inline-block"
+			],
+			[
+				"tra",
+				"target	Attr"
+			],
+			[
+				"dis",
+				"display"
+			],
+			[
+				"wi",
+				"width"
+			]
+		]
+	},
+	"buffers":
+	[
+		{
+			"file": "Web/index.html",
+			"settings":
+			{
+				"buffer_size": 16093,
+				"line_ending": "Windows"
+			}
+		}
+	],
+	"build_system": "",
+	"build_system_choices":
+	[
+	],
+	"build_varint": "",
+	"command_palette":
+	{
+		"height": 104.0,
+		"last_filter": "install",
+		"selected_items":
+		[
+			[
+				"install",
+				"Package Control: Install Package"
+			],
+			[
+				"package control",
+				"Package Control: Install Package"
+			],
+			[
+				" pac",
+				"Preferences: Browse Packages"
+			],
+			[
+				"package",
+				"Preferences: Browse Packages"
+			]
+		],
+		"width": 493.0
+	},
+	"console":
+	{
+		"height": 126.0,
+		"history":
+		[
+			"import urllib.request,os,hashlib; h = '2915d1851351e5ee549c20394736b442' + '8bc59f460fa1548d1514676163dafc88'; pf = 'Package Control.sublime-package'; ipp = sublime.installed_packages_path(); urllib.request.install_opener( urllib.request.build_opener( urllib.request.ProxyHandler()) ); by = urllib.request.urlopen( 'http://packagecontrol.io/' + pf.replace(' ', '%20')).read(); dh = hashlib.sha256(by).hexdigest(); print('Error validating download (got %s instead of %s), please try manual install' % (dh, h)) if dh != h else open(os.path.join( ipp, pf), 'wb' ).write(by)",
+			"import urllib2,os; pf='Package Control.sublime-package'; ipp=sublime.installed_packages_path(); os.makedirs(ipp) if not os.path.exists(ipp) else None; urllib2.install_opener(urllib2.build_opener(urllib2.ProxyHandler())); open(os.path.join(ipp,pf),'wb').write(urllib2.urlopen('http://sublime.wbond.net/'+pf.replace(' ','%20')).read()); print 'Please restart Sublime Text to finish installation'"
+		]
+	},
+	"distraction_free":
+	{
+		"menu_visible": true,
+		"show_minimap": false,
+		"show_open_files": false,
+		"show_tabs": false,
+		"side_bar_visible": false,
+		"status_bar_visible": false
+	},
+	"expanded_folders":
+	[
+		"/C/Users/mruiz/Documents/GitHub/marioruiz97.github.io",
+		"/C/Users/mruiz/Documents/GitHub/marioruiz97.github.io/Web"
+	],
+	"file_history":
+	[
+		"/C/Users/mruiz/Documents/Atlassian/manual-calidad/Reciclaje.pptx",
+		"/C/Users/mruiz/AppData/Roaming/Sublime Text 3/Packages/User/Preferences.sublime-settings",
+		"/C/Users/mruiz/Documents/Atlassian/manual-calidad/recursos/estilos.css",
+		"/C/Users/mruiz/Documents/Atlassian/manual-calidad/recursos/estilos.scss",
+		"/C/Users/mruiz/Documents/Atlassian/manual-calidad/recursos/normalize.min.css",
+		"/C/Users/mruiz/Documents/Atlassian/manual-calidad/recursos/rana.png",
+		"/C/Users/mruiz/Documents/GitHub/marioruiz97.github.io/Web/scss/style.css",
+		"/C/Users/mruiz/Documents/GitHub/marioruiz97.github.io/Web/scss/plantilla.css",
+		"/C/Users/mruiz/Documents/GitHub/marioruiz97.github.io/Web/scss/estilos.scss",
+		"/C/Users/mruiz/Desktop/Proyecto Pagina LeSentier/Le-Sentier/Pagina/GitHub-Mark/PNG/GitHub-Mark-Light-32px.png",
+		"/C/Users/mruiz/Desktop/html5-boilerplate_v5.3.0/index.html",
+		"/C/Users/mruiz/Desktop/evidencia2_MarioAndresRuiz.php",
+		"/C/Users/mruiz/Desktop/revisar/pagina mayo 16/presentacion/index.html",
+		"/C/Users/mruiz/Desktop/pagina mayo 16/recursos/css/intraweb.css",
+		"/C/Users/mruiz/Desktop/pagina mayo 16/intraweb/principal.html",
+		"/C/Users/mruiz/Desktop/bootstrap/recursos/css/intraweb.min.css",
+		"/C/Users/mruiz/Desktop/bootstrap/intraweb/principal.html",
+		"/C/Users/mruiz/Desktop/bootstrap/presentacion/index.html",
+		"/C/Users/mruiz/Desktop/bootstrap/portalclientes/portal.html",
+		"/C/Users/mruiz/Desktop/bootstrap/intraweb/login.html",
+		"/C/Users/mruiz/Desktop/bootstrap/recuperar.html",
+		"/C/Users/mruiz/Desktop/bootstrap/css/intraweb.css",
+		"/C/Users/mruiz/Desktop/bootstrap/css/intraweb.min.css",
+		"/C/Users/mruiz/Desktop/bootstrap/css/ingreso.min.css",
+		"/C/Users/mruiz/Desktop/bootstrap/principal.html",
+		"/C/Users/mruiz/Desktop/bootstrap/intraweb.appcache",
+		"/C/Users/Familia Ruiz/Desktop/bootstrap/index.html",
+		"/C/Users/Familia Ruiz/Desktop/bootstrap/js/main.js",
+		"/C/Users/Familia Ruiz/Desktop/bootstrap/css/plantilla.min.css",
+		"/C/Users/Familia Ruiz/Desktop/bootstrap/login.html",
+		"/C/Users/Familia Ruiz/Desktop/bootstrap/css/plantilla.css",
+		"/C/Users/Familia Ruiz/Desktop/bootstrap/js/npm.js",
+		"/I/bootstrap/maqueta.html",
+		"/I/bootstrap/intraweb.appcache",
+		"/I/bootstrap/css/plantilla.min.css",
+		"/I/bootstrap/css/plantilla.css",
+		"/I/bootstrap/index.html",
+		"/I/bootstrap/recuperar.html",
+		"/I/bootstrap/portal.html",
+		"/I/bootstrap/login.html",
+		"/I/bootstrap/nuevo-index.html",
+		"/I/bootstrap/css/ingreso.css",
+		"/I/bootstrap/presentacion.html",
+		"/C/Users/mruiz/Desktop/bootstrap/bootstrap/js/main.js",
+		"/C/Users/mruiz/Desktop/bootstrap/bootstrap/js/jquery-1.11.2.min.js",
+		"/C/Users/mruiz/Desktop/bootstrap/bootstrap/css/ingreso.css",
+		"/C/Users/Familia Ruiz/Desktop/new.html",
+		"/C/Users/Familia Ruiz/Desktop/bootstrap/bootstrap/css/plantilla.css",
+		"/C/Users/mruiz/Desktop/initializr/index.html",
+		"/C/Users/mruiz/AppData/Roaming/Sublime Text 3/Packages/User/Default (Windows).sublime-keymap",
+		"/C/Users/mruiz/AppData/Roaming/Sublime Text 3/Packages/Default/Default (Windows).sublime-keymap",
+		"/C/Users/mruiz/Desktop/bootstrap/maqueta.html",
+		"/C/Users/mruiz/Desktop/Codigos-Cursos-Profesional-de-Bootstrap-3-master/Capitulo 22 - Scrollspy Tabs/index.html",
+		"/C/Users/mruiz/Desktop/bootstrap/preview.html",
+		"/C/Users/mruiz/Desktop/bootstrap/css/plantilla.css",
+		"/C/Users/mruiz/Desktop/bootstrap/presentacion.html",
+		"/C/Users/mruiz/Desktop/bootstrap/css/fonts.css",
+		"/C/Users/mruiz/Desktop/bootstrap/css/mascota.css",
+		"/C/Users/mruiz/Desktop/bootstrap/js/main.js",
+		"/C/Users/mruiz/Desktop/bootstrap/login.html",
+		"/C/Mis lugares Web/plug & play design/www.plugandplaydesign.co.uk/index.html",
+		"/C/Mis lugares Web/plug & play design/www.plugandplaydesign.co.uk/home/feed/index.html",
+		"/C/Users/mruiz/Desktop/proyecto intranet/css/plantilla.css",
+		"/C/Users/mruiz/Desktop/bootstrap/bootstrap.html",
+		"/C/Users/mruiz/Desktop/bootstrap/menu",
+		"/C/Users/mruiz/Desktop/bootstrap.html",
+		"/C/Users/mruiz/Desktop/proyecto intranet/css/logIn.css",
+		"/C/Users/mruiz/Desktop/archivos de muestra/slider.html",
+		"/C/Users/mruiz/Desktop/archivos de muestra/social.html",
+		"/C/Users/mruiz/Desktop/archivos de muestra/menu.html",
+		"/C/Users/mruiz/Desktop/proyecto intranet/proyecto intranet/login.html",
+		"/C/Users/mruiz/Desktop/proyecto intranet/proyecto intranet/css/estilos.css",
+		"/C/Users/mruiz/Desktop/bootStrap/css/bootstrap.css",
+		"/C/Users/mruiz/Desktop/bootStrap/index.html",
+		"/C/Users/mruiz/Desktop/proyecto intranet/proyecto intranet/demo.html",
+		"/C/Users/mruiz/Desktop/proyecto intranet/proyecto intranet/css/fonts.css",
+		"/C/Users/mruiz/Desktop/proyecto intranet/proyecto intranet/style.css",
+		"/C/Users/mruiz/Desktop/proyecto intranet/proyecto intranet/css/plantilla.css",
+		"/C/Users/mruiz/AppData/Roaming/Sublime Text 3/Packages/Default/Preferences.sublime-settings",
+		"/C/Users/mruiz/Desktop/proyecto intranet/login.html",
+		"/C/Users/mruiz/Desktop/proyecto intranet/css/estilos.css"
+	],
+	"find":
+	{
+		"height": 23.0
+	},
+	"find_in_files":
+	{
+		"height": 0.0,
+		"where_history":
+		[
+		]
+	},
+	"find_state":
+	{
+		"case_sensitive": false,
+		"find_history":
+		[
+			"height",
+			"href=\"",
+			"href=\"\"",
+			"@media",
+			"col-sm-8",
+			"body",
+			"affix",
+			"main article .row",
+			"#punto2",
+			".menu-flotan",
+			"#punto12",
+			".codigos",
+			"h1",
+			"zoom",
+			"small",
+			"#punto11",
+			"text-left",
+			"small",
+			"jumbo",
+			"small",
+			"constru",
+			"sitioconstruir",
+			"#herramientas",
+			"#punto8",
+			"max-width",
+			"#punto8",
+			"ul li",
+			"logo",
+			"#punto4",
+			"media",
+			"h4",
+			"font-family",
+			"menu-flot",
+			"transition",
+			"font-size",
+			"logo",
+			"chevron-right",
+			"import urllib2,os; pf='Package Control.sublime-package'; ipp=sublime.installed_packages_path(); os.makedirs(ipp) if not os.path.exists(ipp) else None; urllib2.install_opener(urllib2.build_opener(urllib2.ProxyHandler())); open(os.path.join(ipp,pf),'wb').write(urllib2.urlopen('http://sublime.wbond.net/'+pf.replace(' ','%20')).read()); print 'Please restart Sublime Text to finish installation'"
+		],
+		"highlight": true,
+		"in_selection": false,
+		"preserve_case": false,
+		"regex": false,
+		"replace_history":
+		[
+		],
+		"reverse": false,
+		"show_context": true,
+		"use_buffer2": true,
+		"whole_word": false,
+		"wrap": true
+	},
+	"groups":
+	[
+		{
+			"selected": 0,
+			"sheets":
+			[
+				{
+					"buffer": 0,
+					"file": "Web/index.html",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 16093,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								13840,
+								13840
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/HTML/HTML.sublime-syntax",
+							"tab_size": 2,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 4553.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 0,
+					"type": "text"
+				}
+			]
+		}
+	],
+	"incremental_find":
+	{
+		"height": 23.0
+	},
+	"input":
+	{
+		"height": 36.0
+	},
+	"layout":
+	{
+		"cells":
+		[
+			[
+				0,
+				0,
+				1,
+				1
+			]
+		],
+		"cols":
+		[
+			0.0,
+			1.0
+		],
+		"rows":
+		[
+			0.0,
+			1.0
+		]
+	},
+	"menu_visible": true,
+	"output.find_results":
+	{
+		"height": 0.0
+	},
+	"pinned_build_system": "",
+	"project": "proyectoWebPersonal.sublime-project",
+	"replace":
+	{
+		"height": 42.0
+	},
+	"save_all_on_build": true,
+	"select_file":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+			[
+				"",
+				"css\\estilos.css"
+			]
+		],
+		"width": 0.0
+	},
+	"select_project":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"select_symbol":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"selected_group": 0,
+	"settings":
+	{
+	},
+	"show_minimap": true,
+	"show_open_files": false,
+	"show_tabs": true,
+	"side_bar_visible": true,
+	"side_bar_width": 184.0,
+	"status_bar_visible": true,
+	"template_settings":
+	{
+	}
+}
