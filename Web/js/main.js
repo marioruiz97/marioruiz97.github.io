@@ -33,6 +33,13 @@ $(document).ready(function(){
 	});
 });
 
+
+// Cargar el modal al iniciar la página
+$('#miModal').modal({
+	show: true
+}); 
+
+
 /*
 function size(){
 
