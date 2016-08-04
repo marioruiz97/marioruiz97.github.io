@@ -72,11 +72,15 @@ blockquote small{
 span.azul{
 	color: #44a1ec;
 }
+span.rojo {
+	color: #c9302c;
+	font-weight: 400;
+}
 .habilidades, footer{
 	background-color: #212121;
 	color: #FDFFF2;
 }
-.icon-embed2{
+.icon-embed2, .icono-acerca-de {
 	font-size: 2rem;
 }
 
@@ -111,28 +115,11 @@ nav ul li, nav ul li a{
 	max-width: 100%;
 	height: inherit;
 	max-height: inherit;
-	-webkit-filter:blur(1.5px)  grayscale(1);
-	filter:blur(1.5px)  grayscale(1);
-	-webkit-transition:all .9s ease;
-	-moz-transition:all .9s ease;
-	-o-transition:all .9s ease;
 	border-radius: 5px;
 	cursor: pointer;
 
 }
-.curso img:hover{
-	-webkit-filter:blur(0)  grayscale(0);
-	filter:blur(0)  grayscale(0);
-	border-radius: 5px;
 
-}
-.curso:hover img {
-	-webkit-transform: scale(1.25);
-	-moz-transform: scale(1.25);
-	-o-transform: scale(1.25);
-	border-radius: 5px;
-
-}
 /*****************************/
 
 
@@ -147,7 +134,7 @@ footer ul li{
 footer, footer a{
 	color: #FDFFF2;
 }
-footer a:hover{
+footer a:hover, .modal-body a:hover{
 	color: #44A1EC;
 	text-decoration: none;
 }
@@ -189,7 +176,16 @@ footer .btn-info:focus, footer .btn-info:hover, footer .btn-info:active {
 	font-size: 2.5rem;
 }
 
-
+.modal-content {
+	padding: 20px;
+	background-color: rgba(255,255,255,.85);
+}
+.modal-body p, .modal-body h4 {
+	margin-bottom: 20px;
+}
+.modal-body ul li {
+	padding-bottom: 7px;
+}
 
 /*======================================
 
@@ -215,6 +211,26 @@ MEDIA QUERIES
 @media screen and (min-width: 992px){
 	article.container-fluid{
 		padding: 35px 60px;
+	}
+
+	/********* CURSOS - EFECTOS *********/
+	.curso img {
+		-webkit-filter:blur(1.5px)  grayscale(1);
+		filter:blur(1.5px)  grayscale(1);
+		-webkit-transition:all .9s ease;
+		-moz-transition:all .9s ease;
+		-o-transition:all .9s ease;
+	}
+	.curso img:hover{
+		-webkit-filter:blur(0)  grayscale(0);
+		filter:blur(0)  grayscale(0);
+		border-radius: 5px;
+	}
+	.curso:hover img {
+		-webkit-transform: scale(1.25);
+		-moz-transform: scale(1.25);
+		-o-transform: scale(1.25);
+		border-radius: 5px;
 	}
 }
 

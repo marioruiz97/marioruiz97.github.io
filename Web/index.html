@@ -13,7 +13,7 @@
 
     <title>Curriculum vitae - Mario Ruiz</title>
 
-    <link rel="icon" type="icon/png" sizes="100x100" href="./img/icon.png">
+    <link rel="icon" type="image/png" sizes="100x100" href="./img/icon.png">
 
     <!-- OPEN SANS-->
     <link href='https://fonts.googleapis.com/css?family=Open+Sans:400,700,400italic,300' rel='stylesheet' type='text/css'>
@@ -23,6 +23,7 @@
 
     <!-- En el archivo normalize se encuentran los estilos minificados de la página -->
     <link rel="stylesheet" href="css/normalize.min.css">
+    <!-- <link rel="stylesheet" href="css/main.css"> -->
 
   </head>
 
@@ -30,8 +31,9 @@
   <!--[if lt IE 8]>
     <p class="browserupgrade">You are using an <strong>outdated</strong> browser. Please <a href="http:// browsehappy.com/">upgrade your browser</a> to improve your experience.</p>
   <![endif]-->
-
-  <h1 class="hidden">Hoja de vida de Mario Andrés Ruiz. Hecho con Github pages.</h1>
+  <hgroup>
+    <h1 class="hidden">Hoja de vida de Mario Andrés Ruiz. Hecho con Github pages.</h1>
+  </hgroup>
 
     <nav class="navbar navbar-inverse navbar-fixed-top" role="navigation">
         <div class="container-fluid">
@@ -63,10 +65,12 @@
     <header class="container-fluid cover">
 
       <blockquote class="text-center">
-        <h2 class="text-center">
-          <span class="icon-quotes-left"> </span> La educación no es preparación para la vida; la educación es la vida en si misma. <span class="icon-quotes-right"> </span>
-          <small>John Dewey.</small>
-        </h2>
+        <hgroup>
+          <h2 class="text-center">
+            <span class="icon-quotes-left"> </span> La educación no es preparación para la vida; la educación es la vida en si misma. <span class="icon-quotes-right"> </span>
+            <small>John Dewey.</small>
+          </h2>
+        </hgroup>
       </blockquote>
 
     </header>
@@ -74,8 +78,11 @@
       <!-- Main jumbotron con background -->
       <div id="perfil" class="jumbotron">
         <section class="container">
-          <h1 class="text-center">Mario Andrés Ruiz</h1>
-          <h2>Perfil.</h2>
+          <hgroup>
+            <h1 class="text-center">Mario Andrés Ruiz</h1>
+            <h2>Perfil.</h2>
+          </hgroup>
+
           <p>
             Soy un joven, estudiante y entusiasta por aprender nuevas cosas en el ámbito de desarrollo de software (el cual es mi principal interés en el mundo laboral) y en las principales tecnologías usadas actualmente.
           </p>
@@ -312,6 +319,75 @@
       </article><!-- fin seccion-->
 
 
+      <article id="miModal" class="modal fade">
+        <section class="modal-dialog">
+          <div class="modal-content">
+
+
+            <div class="modal-header">
+              <button class="close" aria-hidden="true" data-dismiss="modal">&times;
+                <span class="sr-only">Cerrar ventana modal acerca del sitio</span>
+              </button>
+              <h3 class="modal-title">Acerca del sitio</h3>
+            </div>
+
+
+            <div class="modal-body">
+              <p class="text-center">
+                Este sitio web ha sido diseñado y desarrollado por <span class="rojo">Mario Andrés Ruiz </span> a manera de proyecto personal, utilizar la herramienta de <span class="rojo">Github pages </span> y contar con su Curriculum Vitae en línea.
+              </p>
+              <p>En el botón de la parte inferior de la página se podrá descargar el repositorio y código del sitio para prácticas de aprendizaje.</p>
+
+              <h4>Para el desarrollo de esta web se ha hecho uso de los siguientes elementos:</h4>
+
+              <ul class="list-unstyled">
+                <li>
+                  <a href="https://pages.github.com/" target="_blank">
+                  <span class="icon-github icono-acerca-de"> </span> Github Pages</a>
+                </li>
+
+                <li>
+                  <a href="https://git-scm.com/" target="_blank">
+                  <span class="icon-git icono-acerca-de"> </span> Git para control de versiones</a>
+                </li>
+
+                <li>
+                  <a href="http://www.desarrolloweb.com/articulos/que-es-responsive-web-design.html" target="_blank">
+                  <span class="icon-tablet icono-acerca-de"> </span> Técnica Responsive Web Design</a>
+                </li>
+
+                <li>
+                  <a href="https://www.w3.org/html/" target="_blank">
+                  <span class="icon-html-five icono-acerca-de"> </span> HTML en su versión 5</a>
+                </li>
+
+                <li>
+                  <a href="http://www.w3c.es/Divulgacion/GuiasBreves/HojasEstilo" target="_blank">
+                  <span class="icon-css3 icono-acerca-de"> </span> Hojas de estilo CSS3</a>
+                </li>
+
+                <li>
+                  <a href="https://jquery.com/" target="_blank">Tambien se usaron elementos de JQuery y JavaScript</a>
+                </li>
+
+                <li>
+                  <a href="http://getbootstrap.com/" target="_blank"> Este sitio web fue construido bajo el framework Twitter Bootstrap</a>
+                </li>
+
+              </ul>
+            </div>
+
+
+            <div class="modal-footer">
+              <button class="btn btn-danger" data-dismiss="modal">Cerrar Acerca del Sitio</button>
+            </div>
+
+
+          </div>
+        </section>
+      </article>
+
+
 
 <!-- footer-->
 <footer class="container-fluid">
@@ -323,7 +399,7 @@
               <li><a href="#formacion">Formación</a></li>
               <li><a href="#habilidades">Habilidades</a></li>
               <li><a href="#cursos">Cursos y certificaciones</a></li>
-              <li><a href="" class="">Acerca del sitio.</a></li>
+              <li><a href="" class="" data-toggle="modal" data-target="#miModal" >Acerca del sitio.</a></li>
             </ul>
     </div>
 
