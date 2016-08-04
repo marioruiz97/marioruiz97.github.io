@@ -33,7 +33,6 @@ $(document).ready(function(){
 	});
 });
 
-
 /*
 function size(){
 
