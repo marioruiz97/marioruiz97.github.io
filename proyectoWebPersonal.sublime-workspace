@@ -4,16 +4,20 @@
 		"selected_items":
 		[
 			[
+				"pad",
+				"padding-bottom"
+			],
+			[
 				"margin",
-				"margin-top"
+				"margin-bottom"
+			],
+			[
+				"fun",
+				"function"
 			],
 			[
 				"font",
 				"font-weight"
-			],
-			[
-				"pad",
-				"padding"
 			],
 			[
 				"colo",
@@ -247,7 +251,15 @@
 			"file": "Web/index.html",
 			"settings":
 			{
-				"buffer_size": 16093,
+				"buffer_size": 19788,
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"file": "Web/js/main.js",
+			"settings":
+			{
+				"buffer_size": 1394,
 				"line_ending": "Windows"
 			}
 		}
@@ -302,11 +314,15 @@
 	},
 	"expanded_folders":
 	[
-		"/C/Users/mruiz/Documents/GitHub/marioruiz97.github.io",
-		"/C/Users/mruiz/Documents/GitHub/marioruiz97.github.io/Web"
+		"/C/Users/Familia Ruiz/Documents/GitHub/marioruiz97.github.io",
+		"/C/Users/Familia Ruiz/Documents/GitHub/marioruiz97.github.io/Web"
 	],
 	"file_history":
 	[
+		"/C/Users/Familia Ruiz/Documents/GitHub/marioruiz97.github.io/Web/css/main.css",
+		"/C/Users/Familia Ruiz/Documents/GitHub/marioruiz97.github.io/Web/css/normalize.min.css",
+		"/C/Users/Familia Ruiz/Documents/GitHub/marioruiz97.github.io/index.html",
+		"/C/Users/Familia Ruiz/Documents/GitHub/marioruiz97.github.io/Web/js/main.js",
 		"/C/Users/mruiz/Documents/Atlassian/manual-calidad/Reciclaje.pptx",
 		"/C/Users/mruiz/AppData/Roaming/Sublime Text 3/Packages/User/Preferences.sublime-settings",
 		"/C/Users/mruiz/Documents/Atlassian/manual-calidad/recursos/estilos.css",
@@ -391,7 +407,7 @@
 	],
 	"find":
 	{
-		"height": 23.0
+		"height": 36.0
 	},
 	"find_in_files":
 	{
@@ -405,6 +421,7 @@
 		"case_sensitive": false,
 		"find_history":
 		[
+			"text-deco",
 			"height",
 			"href=\"",
 			"href=\"\"",
@@ -469,15 +486,15 @@
 					"semi_transient": false,
 					"settings":
 					{
-						"buffer_size": 16093,
+						"buffer_size": 19788,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								13840,
-								13840
+								18749,
+								18749
 							]
 						],
 						"settings":
@@ -487,10 +504,38 @@
 							"translate_tabs_to_spaces": true
 						},
 						"translation.x": 0.0,
-						"translation.y": 4553.0,
+						"translation.y": 655.0,
 						"zoom_level": 1.0
 					},
 					"stack_index": 0,
+					"type": "text"
+				},
+				{
+					"buffer": 1,
+					"file": "Web/js/main.js",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 1394,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								0,
+								0
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/JavaScript/JavaScript.sublime-syntax"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 1,
 					"type": "text"
 				}
 			]
@@ -577,7 +622,7 @@
 	"show_open_files": false,
 	"show_tabs": true,
 	"side_bar_visible": true,
-	"side_bar_width": 184.0,
+	"side_bar_width": 232.0,
 	"status_bar_visible": true,
 	"template_settings":
 	{

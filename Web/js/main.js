@@ -40,6 +40,7 @@ $('#miModal').modal({
 }); 
 
 
+
 /*
 function size(){
 
